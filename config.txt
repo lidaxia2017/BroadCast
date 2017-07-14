@@ -1,0 +1,36 @@
+# # Configuration file for CS/CE 6378 Project 1 # (Summer 2017) # # As per the "shell" convention, anything following a hash sign is # a comment and should be ignored by the parser.
+
+# Broadcast times
+100
+
+# Random mean
+6
+
+# Number of nodes
+15
+
+# Here we list the individual nodes # The node numbers are implicitly designated by order in the file. # i.e., the first node listed is node 1, etc.
+
+#
+
+# Format is:
+
+-nodes
+# Hostname Port Neighbor List
+dc11 6492 2 4 5 7 10 13
+dc21 3668 1
+dc11 3261 4 5 9 13
+dc21 3361 1 3 5 6 11
+dc31 3114 1 3 4 15
+dc21 3234 6 12 14 15
+dc31 3154 1 8 9 10
+dc21 3174 7 11 12 14
+dc11 3544 3 7 13 15
+dc41 3654 1 7 11 12
+dc21 3764 4 8 10 12 13 14 15
+dc31 3874 6 8 10 11
+dc21 3984 1 3 9 11
+dc41 4364 6 8 11
+dc31 5464 5 6 9 11
+
+
